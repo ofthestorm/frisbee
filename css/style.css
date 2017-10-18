@@ -1,0 +1,30 @@
+body {
+  height: 100%;
+  width: 100%;
+}
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+  filter: contrast(80%);
+}
+.carousel-caption {
+  padding-bottom: 150px;
+}
+@media (max-width: 980px) {
+  .carousel-caption {
+    padding-bottom: 100px;
+  }
+}
+@media (max-width: 480px) {
+  .carousel-caption {
+    padding-bottom: 50px;
+  }
+}
+.footer {
+  margin: 0 auto;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  background-image: linear-gradient(to bottom, #ECECEC, white);
+  border-top: solid #EEEEEE 1px;
+}
