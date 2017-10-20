@@ -51,3 +51,26 @@ body {
     //width: 400px;
   }
 }
+
+//.shine {
+//  //height: 50px;
+//  font-size: 30px;
+//  background: #203;
+//  color: #ffc;
+//  text-shadow: 0 0 .1em, 0 0 .3em;
+//}
+
+.shine {
+  background: #203;
+  color: #ffc;
+  transition: 0.5s;
+  font-size: 30px;
+  &:hover {
+    color: transparent;
+    text-shadow: 0 0 .1em #ffc, 0 0 .3em #ffc;
+    text-decoration: none;
+  }
+  &:active {
+    text-decoration: none;
+  }
+}

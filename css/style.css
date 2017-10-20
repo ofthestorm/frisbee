@@ -28,3 +28,17 @@ body {
   background-image: linear-gradient(to bottom, #ECECEC, white);
   border-top: solid #EEEEEE 1px;
 }
+.shine {
+  background: #203;
+  color: #ffc;
+  transition: 0.5s;
+  font-size: 30px;
+}
+.shine:hover {
+  color: transparent;
+  text-shadow: 0 0 .1em #ffc, 0 0 .3em #ffc;
+  text-decoration: none;
+}
+.shine:active {
+  text-decoration: none;
+}
